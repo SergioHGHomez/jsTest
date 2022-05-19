@@ -21,3 +21,16 @@ const mySecondArrow = (a, b) => {
 }
 
 console.log( mySecondArrow(15,15))
+
+
+// anonymus funtion 
+// it's not recomended because you can re-use the funtion
+function anonymusFunction(a,b,callB){
+    let r = a+b
+    callB(r)
+}
+
+
+anonymusFunction (1,2,function (r) {
+    console.log("the resoult of the funtion is "+ r)
+})
