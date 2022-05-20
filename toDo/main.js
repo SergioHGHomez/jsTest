@@ -19,13 +19,7 @@ window.onload = () => {
             }
             list.innerHTML = items;
 
-        }
-
-        
-        
-        
-
-              
+        }      
         
     }
     
