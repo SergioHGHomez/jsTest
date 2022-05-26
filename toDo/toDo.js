@@ -13,6 +13,14 @@ window.onload = () => {
         const toDoTemplate = itemList.map(item => '<li>'+item+'</li>');
         const ulToDo = document.getElementById("toDoList");
         ulToDo.innerHTML = toDoTemplate.join('');
-
     }
+
+    const showButton = document.getElementById('showButton')
+
+    showButton.onclick = () => {
+        const elements = document.querySelectorAll("#toDoList li")
+        console.log(elements.forEach(e => console.log(e.innerText)))
+    }
+
+
 }
