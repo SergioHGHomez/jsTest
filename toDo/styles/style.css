@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    background-color: #eee;
+}
+.optionContainer{
+    display: flex;
+    color: aliceblue;
+    background: black;
+    padding: 5PX;
+}
+
+.container{
+    display: flex;
+    
+}
+.container ul{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: papayawhip;
+
+}
+.container li:nth-child(2N - 1){
+    background: powderblue;
+
+}
