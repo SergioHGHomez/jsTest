@@ -11,6 +11,7 @@ body{
 
 .container{
     display: flex;
+    justify-content: center;
     
 }
 .container ul{
@@ -20,7 +21,7 @@ body{
     background-color: papayawhip;
 
 }
-.container li:nth-child(2N - 1){
+.container li:nth-child(2N - 2){
     background: powderblue;
 
 }
