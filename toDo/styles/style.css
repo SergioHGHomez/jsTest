@@ -7,6 +7,7 @@ body{
     color: aliceblue;
     background: black;
     padding: 5PX;
+    height: 25px;
 }
 
 .container{
@@ -21,7 +22,13 @@ body{
     background-color: papayawhip;
 
 }
-.container li:nth-child(2N - 2){
+.container ul li{
+    position: sticky;
+    top: 0px;
+    list-style: none;
+
+}
+.container ul li:nth-child(2N - 2){
     background: powderblue;
 
 }
