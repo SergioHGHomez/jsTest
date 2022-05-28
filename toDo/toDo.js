@@ -9,7 +9,10 @@ const render = () => {
         ulToDo.innerHTML = toDoTemplate.join('');
 
         const elements = document.querySelectorAll('#toDoList li')
+        const numItems = document.getElementById('numTodo')
+        numItems.innerText = itemList.length
         //add the eliminate funtion when someone click in it
+
         elements.forEach((element,index) => {
             element.addEventListener('click',() => {
                 
